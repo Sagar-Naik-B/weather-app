@@ -2,6 +2,8 @@
 *.pyc
 __pycache__/
 
+/build
+/node_modules/
 # Django generated files
 *.sqlite3
 *.pyc

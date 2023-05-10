@@ -26,6 +26,8 @@ const INITAL_STATE = {
   visibility: "--",
 };
 
+const URL = "https://weather-app-xwh1.onrender.com/api/weather/";
+
 function App() {
   const [weatherData, setWeatherData] = React.useState(INITAL_STATE);
   const [loading, setLoading] = React.useState(false);
@@ -36,7 +38,7 @@ function App() {
     setLoading(true);
     const formData = new FormData();
     formData.append("city", city);
-    fetch("http://localhost:8000/api/weather/", {
+    fetch(URL, {
       method: "POST",
       body: formData,
     })
