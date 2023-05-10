@@ -1,0 +1,46 @@
+# Byte-compiled / optimized Python files
+*.pyc
+__pycache__/
+
+# Django generated files
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.py~
+*.bak
+*.swp
+*.~*
+
+# Django static files directory (if using manage.py collectstatic)
+/static/
+
+# Django media files directory
+/media/
+
+# Secret key file (if not using environment variables)
+/secret_key.txt
+
+# IDE-specific files and directories
+.vscode/
+.idea/
+*.sublime-*
+*.swo
+*.swp
+
+# Local development settings
+/local_settings.py
+
+# Logs
+/log/
+*.log
+
+# Environment variables file
+.env
+
+# Ignore pipenv virtual environment
+/.venv/
+/.env/
+
+# Ignore pipenv lock file
+Pipfile.lock

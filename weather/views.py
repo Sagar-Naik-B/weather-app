@@ -7,7 +7,6 @@ class WeatherAPIView(APIView):
     def post(self, request, format=None):
         city = request.POST.get('city')
 
-        print(city)
         if not city:
             return Response({'error': 'city parameter is missing.'}, status=400)
         
