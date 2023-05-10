@@ -4,6 +4,8 @@ Before getting started, make sure you have the following software installed on y
 Node.js: You can download it from the official website (https://nodejs.org).
 Python: Visit the official Python website (https://www.python.org) and install the latest version.
 
+demo: https://sagar-naik-b.github.io/weather-app/
+
 ## Backend Setup (Django)
 
 1.Open a terminal and navigate to the "weather" directory within the project.
